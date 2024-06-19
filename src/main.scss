@@ -1,0 +1,99 @@
+/*!/**
+ * @name vencord-theme
+ * @version master
+ * @description personal vencord theme
+ * @author amyavi
+*/
+
+@import "selectors.scss";
+
+%browser-notice {
+    display: none !important;
+}
+
+%role-icon {
+    display: none !important;
+}
+
+%settings-premium-label>svg {
+    display: none !important;
+}
+
+%settings-profiles-shop-upsell-container {
+    display: none !important;
+}
+
+%settings-profiles-server-nitro-upsell-container {
+    display: none !important;
+}
+
+%settings-nitro-sticky-wrapper {
+    display: none !important;
+}
+
+%settings-social-links {
+    display: none !important;
+}
+
+%toolbar>a[href="https://support.discord.com"] {
+    display: none !important;
+}
+
+%guilds-sidebar {
+    %guilds-sidebar-guild:has(%guilds-sidebar-guild-discover-button) {
+        display: none !important;
+    }
+}
+
+%private-channels {
+    %private-channels-channel:has(a[href="/shop"]) {
+        display: none !important
+    }
+
+    %private-channels-channel:has(a[href="/store"]) {
+        display: none !important;
+    }
+}
+
+%friends {
+    %friends-active-now-sidebar {
+        display: none !important;
+    }
+}
+
+%banner-premium>%banner-premium-icon-wrapper {
+    display: none !important;
+}
+
+%profile-effects {
+    display: none !important;
+}
+
+%profile-avatar-decoration {
+    display: none !important;
+}
+
+%profile-user-info {
+    %profile-section-header:last-of-type {
+        display: none !important;
+    }
+}
+
+%profile-notes {
+    display: none !important;
+}
+
+%profile-popout {
+    %profile-popout-section:has(%profile-popout-notes) {
+        * {
+            display: none !important;
+        }
+
+        padding-top: 0px !important;
+        /* keep padding-bottom */
+    }
+}
+
+%chat-messages-message-avatar-decoration {
+    display: none !important;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vencord-theme",
+  "version": "0.0.0",
+  "description": "personal vencord theme",
+  "private": true,
+  "devDependencies": {
+    "rimraf": "~5.0.7",
+    "sass": "~1.77.6"
+  },
+  "scripts": {
+    "build": "sass --style=compressed --no-source-map --update src/main.scss:build/theme.css",
+    "clean": "rimraf build"
+  }
+}

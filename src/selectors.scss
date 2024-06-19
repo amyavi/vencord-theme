@@ -1,0 +1,123 @@
+/* general */
+.browserNotice_f916fc {
+    @extend %browser-notice !optional;
+}
+
+.roleIcon_d5100b {
+    @extend %role-icon !optional;
+}
+
+/* settings */
+.premiumLabel_ae3c77 {
+    @extend %settings-premium-label !optional;
+}
+
+.container_da1432 {
+    @extend %settings-profiles-shop-upsell-container !optional;
+}
+
+.upsellOverlayContainer_eb49af {
+    @extend %settings-profiles-server-nitro-upsell-container !optional;
+}
+
+.wrapper_c511e4 {
+    @extend %settings-nitro-sticky-wrapper !optional;
+}
+
+.socialLinks_c44e94 {
+    @extend %settings-social-links !optional;
+}
+
+/* header bar */
+.toolbar_e44302 {
+    @extend %toolbar !optional;
+}
+
+.iconWrapper_e44302 {
+    @extend %header-bar-icon-wrapper !optional;
+}
+
+.icon_e44302 {
+    @extend %header-bar-icon !optional;
+}
+
+/* guilds sidebar */
+.guilds_a4d4d9 {
+    @extend %guilds-sidebar !optional;
+}
+
+.listItem_c96c45 {
+    @extend %guilds-sidebar-guild !optional;
+}
+
+div[data-list-item-id="guildsnav___guild-discover-button"] {
+    @extend %guilds-sidebar-guild-discover-button !optional;
+}
+
+/* private channels */
+.privateChannels_f0963d {
+    @extend %private-channels !optional;
+}
+
+.channel_c91bad {
+    @extend %private-channels-channel !optional;
+}
+
+/* friends tab */
+.container_c2739c {
+    @extend %friends !optional;
+}
+
+.nowPlayingColumn_c2739c {
+    @extend %friends-active-now-sidebar !optional;
+}
+
+/* profiles */
+.banner_c3e427 {
+    @extend %profile-banner !optional;
+}
+
+.bannerPremium_c3e427 {
+    @extend %banner-premium !optional;
+}
+
+.premiumIconWrapper_c3e427 {
+    @extend %banner-premium-icon-wrapper !optional;
+}
+
+.avatarDecoration_c51b4e {
+    @extend %profile-avatar-decoration !optional;
+}
+
+.profileEffects_f867f9 {
+    @extend %profile-effects !optional;
+}
+
+.note_a24910 {
+    @extend %profile-notes !optional;
+}
+
+.userInfoSection_a24910 {
+    @extend %profile-user-info !optional;
+}
+
+.userInfoSectionHeader_a24910 {
+    @extend %profile-section-header !optional;
+}
+
+.userPopoutInner_c69a7b {
+    @extend %profile-popout !optional;
+}
+
+.section_d7a21f {
+    @extend %profile-popout-section !optional;
+}
+
+.note_c90ad7 {
+    @extend %profile-popout-notes !optional;
+}
+
+/* chat messages */
+.avatarDecoration_ec86aa {
+    @extend %chat-messages-message-avatar-decoration !optional;
+}
