@@ -73,10 +73,8 @@
     display: none !important;
 }
 
-%profile-user-info {
-    %profile-section-header:last-of-type {
-        display: none !important;
-    }
+%profile-user-info>%profile-section-header:last-of-type {
+    display: none !important;
 }
 
 %profile-notes {
