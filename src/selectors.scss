@@ -113,6 +113,10 @@ div[data-list-item-id="guildsnav___guild-discover-button"] {
     @extend %profile-popout-section !optional;
 }
 
+.lastSection_d7a21f {
+    @extend %profile-popout-section-last !optional;
+}
+
 .note_c90ad7 {
     @extend %profile-popout-notes !optional;
 }

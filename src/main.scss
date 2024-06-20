@@ -39,26 +39,20 @@
     display: none !important;
 }
 
-%guilds-sidebar {
-    %guilds-sidebar-guild:has(%guilds-sidebar-guild-discover-button) {
+%guilds-sidebar %guilds-sidebar-guild:has(%guilds-sidebar-guild-discover-button) {
+    display: none !important;
+}
+
+%private-channels %private-channels-channel {
+
+    &:has(a[href="/shop"]),
+    &:has(a[href="/store"]) {
         display: none !important;
     }
 }
 
-%private-channels {
-    %private-channels-channel:has(a[href="/shop"]) {
-        display: none !important
-    }
-
-    %private-channels-channel:has(a[href="/store"]) {
-        display: none !important;
-    }
-}
-
-%friends {
-    %friends-active-now-sidebar {
-        display: none !important;
-    }
+%friends %friends-active-now-sidebar {
+    display: none !important;
 }
 
 %banner-premium>%banner-premium-icon-wrapper {
@@ -73,23 +67,22 @@
     display: none !important;
 }
 
-%profile-user-info>%profile-section-header:last-of-type {
-    display: none !important;
-}
-
+%profile-section-header:has(+%profile-notes),
 %profile-notes {
     display: none !important;
 }
 
-%profile-popout {
-    %profile-popout-section:has(%profile-popout-notes) {
-        * {
-            display: none !important;
-        }
-
-        padding-top: 0px !important;
-        /* keep padding-bottom */
+%profile-popout-section:has(%profile-popout-notes) {
+    &:not(%profile-popout-section-last) {
+        padding-bottom: 0px !important;
     }
+    padding-top: 0px !important;
+}
+
+%profile-popout-notes,
+%profile-popout-section:has(%profile-popout-notes)>h2 {
+    display: none !important;
+
 }
 
 %chat-messages-message-avatar-decoration {
