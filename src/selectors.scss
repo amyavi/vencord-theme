@@ -1,13 +1,51 @@
-/* general */
+/* general/browser-notices.scss */
 .browserNotice_f916fc {
     @extend %browser-notice !optional;
 }
 
+/* guilds-sidebar/ */
+.guilds_a4d4d9 {
+    @extend %guilds-sidebar !optional;
+}
+
+.listItem_c96c45 {
+    @extend %guilds-sidebar-guild !optional;
+}
+
+/* guilds-sidebar/guilds-discover-button.scss */
+div[data-list-item-id="guildsnav___guild-discover-button"] {
+    @extend %guilds-sidebar-guild-discover-button !optional;
+}
+
+/* misc/role-icons.scss */
 .roleIcon_d5100b {
     @extend %role-icon !optional;
 }
 
-/* settings */
+/* private-channels/ */
+.privateChannels_f0963d {
+    @extend %private-channels !optional;
+}
+
+.channel_c91bad {
+    @extend %private-channels-channel !optional;
+}
+
+.container_c2739c {
+    @extend %friends !optional;
+}
+
+/* private-channels/active-now-sidebar.scss */
+.nowPlayingColumn_c2739c {
+    @extend %friends-active-now-sidebar !optional;
+}
+
+/* settings/social-links.scss */
+.socialLinks_c44e94 {
+    @extend %settings-social-links !optional;
+}
+
+/* settings/upsells.scss */
 .premiumLabel_ae3c77 {
     @extend %settings-premium-label !optional;
 }
@@ -24,81 +62,28 @@
     @extend %settings-nitro-sticky-wrapper !optional;
 }
 
-.socialLinks_c44e94 {
-    @extend %settings-social-links !optional;
-}
-
-/* header bar */
+/* toolbar/ */
 .toolbar_e44302 {
     @extend %toolbar !optional;
 }
 
-.iconWrapper_e44302 {
-    @extend %header-bar-icon-wrapper !optional;
-}
-
-.icon_e44302 {
-    @extend %header-bar-icon !optional;
-}
-
-/* guilds sidebar */
-.guilds_a4d4d9 {
-    @extend %guilds-sidebar !optional;
-}
-
-.listItem_c96c45 {
-    @extend %guilds-sidebar-guild !optional;
-}
-
-div[data-list-item-id="guildsnav___guild-discover-button"] {
-    @extend %guilds-sidebar-guild-discover-button !optional;
-}
-
-/* private channels */
-.privateChannels_f0963d {
-    @extend %private-channels !optional;
-}
-
-.channel_c91bad {
-    @extend %private-channels-channel !optional;
-}
-
-/* friends tab */
-.container_c2739c {
-    @extend %friends !optional;
-}
-
-.nowPlayingColumn_c2739c {
-    @extend %friends-active-now-sidebar !optional;
-}
-
-/* profiles */
-.banner_c3e427 {
-    @extend %profile-banner !optional;
-}
-
-.bannerPremium_c3e427 {
-    @extend %banner-premium !optional;
-}
-
-.premiumIconWrapper_c3e427 {
-    @extend %banner-premium-icon-wrapper !optional;
-}
-
+/* users/avatar-decorations.scss */
 .avatarDecoration_c51b4e {
     @extend %profile-avatar-decoration !optional;
 }
 
+.avatarDecoration_ec86aa {
+    @extend %chat-messages-message-avatar-decoration !optional;
+}
+
+/* users/effects.scss */
 .profileEffects_f867f9 {
     @extend %profile-effects !optional;
 }
 
+/* users/notes.scss */
 .note_a24910 {
     @extend %profile-notes !optional;
-}
-
-.userInfoSection_a24910 {
-    @extend %profile-user-info !optional;
 }
 
 .userInfoSectionHeader_a24910 {
@@ -121,7 +106,11 @@ div[data-list-item-id="guildsnav___guild-discover-button"] {
     @extend %profile-popout-notes !optional;
 }
 
-/* chat messages */
-.avatarDecoration_ec86aa {
-    @extend %chat-messages-message-avatar-decoration !optional;
+/* users/upsells.scss */
+.bannerPremium_c3e427 {
+    @extend %banner-premium !optional;
+}
+
+.premiumIconWrapper_c3e427 {
+    @extend %banner-premium-icon-wrapper !optional;
 }

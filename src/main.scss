@@ -7,84 +7,15 @@
 
 @import "selectors.scss";
 
-%browser-notice {
-    display: none !important;
-}
-
-%role-icon {
-    display: none !important;
-}
-
-%settings-premium-label>svg {
-    display: none !important;
-}
-
-%settings-profiles-shop-upsell-container {
-    display: none !important;
-}
-
-%settings-profiles-server-nitro-upsell-container {
-    display: none !important;
-}
-
-%settings-nitro-sticky-wrapper {
-    display: none !important;
-}
-
-%settings-social-links {
-    display: none !important;
-}
-
-%toolbar>a[href="https://support.discord.com"] {
-    display: none !important;
-}
-
-%guilds-sidebar %guilds-sidebar-guild:has(%guilds-sidebar-guild-discover-button) {
-    display: none !important;
-}
-
-%private-channels %private-channels-channel {
-
-    &:has(a[href="/shop"]),
-    &:has(a[href="/store"]) {
-        display: none !important;
-    }
-}
-
-%friends %friends-active-now-sidebar {
-    display: none !important;
-}
-
-%banner-premium>%banner-premium-icon-wrapper {
-    display: none !important;
-}
-
-%profile-effects {
-    display: none !important;
-}
-
-%profile-avatar-decoration {
-    display: none !important;
-}
-
-%profile-section-header:has(+%profile-notes),
-%profile-notes {
-    display: none !important;
-}
-
-%profile-popout-section:has(%profile-popout-notes) {
-    &:not(%profile-popout-section-last) {
-        padding-bottom: 0px !important;
-    }
-    padding-top: 0px !important;
-}
-
-%profile-popout-notes,
-%profile-popout-section:has(%profile-popout-notes)>h2 {
-    display: none !important;
-
-}
-
-%chat-messages-message-avatar-decoration {
-    display: none !important;
-}
+@import "removals/general/browser-notices.scss";
+@import "removals/guilds-sidebar/guild-discover-button.scss";
+@import "removals/misc/role-icons.scss";
+@import "removals/private-channels/active-now-sidebar.scss";
+@import "removals/private-channels/upsells.scss";
+@import "removals/settings/social-links.scss";
+@import "removals/settings/upsells.scss";
+@import "removals/toolbar/help-button.scss";
+@import "removals/users/avatar-decorations.scss";
+@import "removals/users/effects.scss";
+@import "removals/users/notes.scss";
+@import "removals/users/upsells.scss";

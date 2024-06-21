@@ -1,0 +1,7 @@
+%private-channels %private-channels-channel {
+
+    &:has(a[href="/shop"]),
+    &:has(a[href="/store"]) {
+        display: none !important;
+    }
+}

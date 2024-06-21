@@ -1,0 +1,19 @@
+%profile-section-header:has(+%profile-notes),
+%profile-notes {
+    display: none !important;
+}
+
+%profile-popout-section:has(%profile-popout-notes) {
+    &:not(%profile-popout-section-last) {
+        padding-bottom: 0px !important;
+    }
+
+    padding-top: 0px !important;
+}
+
+%profile-popout-notes,
+%profile-popout-section:has(%profile-popout-notes)>h2 {
+    display: none !important;
+}
+
+// TODO: remove last divider in profile sidebar
