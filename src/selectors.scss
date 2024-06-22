@@ -17,6 +17,20 @@ div[data-list-item-id="guildsnav___guild-discover-button"] {
     @extend %guilds-sidebar-guild-discover-button !optional;
 }
 
+/* messages/ */
+ol[data-list-id="chat-messages"] {
+    @extend %messages !optional;
+}
+
+.messageListItem_d5deea {
+    @extend %messages-list-item !optional;
+}
+
+/* messages/upsells.scss */
+.nitroMessage_d5deea {
+    @extend %messages-nitro-message !optional;
+}
+
 /* misc/role-icons.scss */
 .roleIcon_d5100b {
     @extend %role-icon !optional;
