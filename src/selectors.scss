@@ -96,28 +96,24 @@ ol[data-list-id="chat-messages"] {
 }
 
 /* users/notes.scss */
-.note_a24910 {
-    @extend %profile-notes !optional;
+.section_ba4d80 {
+    @extend %profile-section !optional;
 }
 
-.userInfoSectionHeader_a24910 {
-    @extend %profile-section-header !optional;
+.note_c2dcc6 {
+    @extend %profile-notes !optional;
 }
 
 .userPopoutInner_c69a7b {
     @extend %profile-popout !optional;
 }
 
-.section_d7a21f {
-    @extend %profile-popout-section !optional;
+.nicknameIcons_c32acf {
+    @extend %profile-popout-name-icons !optional;
 }
 
-.lastSection_d7a21f {
-    @extend %profile-popout-section-last !optional;
-}
-
-.note_c90ad7 {
-    @extend %profile-popout-notes !optional;
+.icon_f1cdcc {
+    @extend %profile-popout-note-icon !optional;
 }
 
 /* users/upsells.scss */
