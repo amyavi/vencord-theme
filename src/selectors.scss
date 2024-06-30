@@ -124,3 +124,7 @@ ol[data-list-id="chat-messages"] {
 .premiumIconWrapper_c3e427 {
     @extend %banner-premium-icon-wrapper !optional;
 }
+
+.overlay2_a465ac {
+    @extend %profile-panel-join-nitro-overlay !optional;
+}
