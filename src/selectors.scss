@@ -90,6 +90,15 @@ ol[data-list-id="chat-messages"] {
     @extend %chat-messages-message-avatar-decoration !optional;
 }
 
+/* users/clan-tags.scss */
+.clickable_d5cb59 {
+    @extend %user-clickable-container !optional;
+}
+
+.chipletContainerInner_d5cb59 {
+    @extend %user-chiplet !optional;
+}
+
 /* users/effects.scss */
 .profileEffects_f867f9 {
     @extend %profile-effects !optional;

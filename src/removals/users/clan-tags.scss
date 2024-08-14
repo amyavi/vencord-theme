@@ -1,0 +1,7 @@
+%user-chiplet {
+    display: none !important;
+}
+
+%user-clickable-container:has(%user-chiplet) {
+    display: none !important;
+}
