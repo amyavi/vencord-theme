@@ -80,6 +80,46 @@ ol[data-list-id="chat-messages"] {
     @extend %settings-nitro-sticky-wrapper !optional;
 }
 
+.description_f45ea6 {
+    @extend %settings-appearance-theme-description !optional;
+}
+
+.nitroWheel_f45ea6 {
+    @extend %settings-appearance-theme-description-nitro-wheel !optional;
+}
+
+.tryItOutButtons_ {
+    @extend %settings-appearance-theme-try-it-out-buttons !optional;
+}
+
+.themeSelectionContainer_cb7c27 {
+    @extend %settings-appearance-theme-preset !optional;
+}
+
+.lockedBadgeContainer_cb7c27 {
+    @extend %settings-appearance-theme-preset-locked-badge !optional;
+}
+
+.description_df4d02 {
+    @extend %settings-appearance-icon-description !optional;
+}
+
+.nitroWheel_df4d02 {
+    @extend %settings-appearance-icon-description-nitro-wheel !optional;
+}
+
+.tryItOutButtons_bde965 {
+    @extend %settings-appearance-icon-try-it-out-buttons !optional;
+}
+
+.appIconSelectionContainer_e2863f {
+    @extend %settings-appearance-icon-preset !optional;
+}
+
+.lockedBadgeContainer_e2863f {
+    @extend %settings-appearance-icon-preset-locked-badge !optional;
+}
+
 // removals/toolbar/
 .toolbar_fc4f04 {
     @extend %toolbar !optional;
