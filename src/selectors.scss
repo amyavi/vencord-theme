@@ -1,9 +1,9 @@
-/* general/browser-notices.scss */
+// removals/general/browser-notices.scss
 .browserNotice_f916fc {
     @extend %browser-notice !optional;
 }
 
-/* guilds-sidebar/ */
+// removals/guilds-sidebar/
 .guilds_a4d4d9 {
     @extend %guilds-sidebar !optional;
 }
@@ -12,12 +12,12 @@
     @extend %guilds-sidebar-guild !optional;
 }
 
-/* guilds-sidebar/guilds-discover-button.scss */
+// removals/guilds-sidebar/guilds-discover-button.scss
 div[data-list-item-id="guildsnav___guild-discover-button"] {
     @extend %guilds-sidebar-guild-discover-button !optional;
 }
 
-/* messages/ */
+// removals/messages/
 ol[data-list-id="chat-messages"] {
     @extend %messages !optional;
 }
@@ -26,17 +26,17 @@ ol[data-list-id="chat-messages"] {
     @extend %messages-list-item !optional;
 }
 
-/* messages/upsells.scss */
+// removals/messages/upsells.scss
 .nitroMessage_d5deea {
     @extend %messages-nitro-message !optional;
 }
 
-/* misc/role-icons.scss */
+// removals/misc/role-icons.scss
 .roleIcon_d5100b {
     @extend %role-icon !optional;
 }
 
-/* private-channels/ */
+// removals/private-channels/
 .privateChannels_f0963d {
     @extend %private-channels !optional;
 }
@@ -49,17 +49,17 @@ ol[data-list-id="chat-messages"] {
     @extend %friends !optional;
 }
 
-/* private-channels/active-now-sidebar.scss */
+// removals/private-channels/active-now-sidebar.scss
 .nowPlayingColumn_c2739c {
     @extend %friends-active-now-sidebar !optional;
 }
 
-/* settings/social-links.scss */
+// removals/settings/social-links.scss
 .socialLinks_c44e94 {
     @extend %settings-social-links !optional;
 }
 
-/* settings/upsells.scss */
+// removals/settings/upsells.scss
 .premiumLabel_ae3c77 {
     @extend %settings-premium-label !optional;
 }
@@ -80,12 +80,12 @@ ol[data-list-id="chat-messages"] {
     @extend %settings-nitro-sticky-wrapper !optional;
 }
 
-/* toolbar/ */
+// removals/toolbar/
 .toolbar_fc4f04 {
     @extend %toolbar !optional;
 }
 
-/* users/avatar-decorations.scss */
+// removals/users/avatar-decorations.scss
 .avatarDecoration_c51b4e {
     @extend %profile-avatar-decoration !optional;
 }
@@ -94,12 +94,12 @@ ol[data-list-id="chat-messages"] {
     @extend %chat-messages-message-avatar-decoration !optional;
 }
 
-/* users/effects.scss */
+// removals/users/effects.scss
 .profileEffects_f867f9 {
     @extend %profile-effects !optional;
 }
 
-/* users/notes.scss */
+// removals/users/notes.scss
 .section_ba4d80 {
     @extend %profile-section !optional;
 }
@@ -120,7 +120,7 @@ ol[data-list-id="chat-messages"] {
     @extend %profile-popout-note-icon !optional;
 }
 
-/* users/upsells.scss */
+// removals/users/upsells.scss
 .bannerPremium_c3e427 {
     @extend %banner-premium !optional;
 }
