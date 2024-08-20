@@ -1,3 +1,7 @@
 %messages %messages-list-item:has(%messages-nitro-message) {
     display: none !important;
 }
+
+%channel-bottom-bar-app-launcher {
+    display: none !important;
+}
