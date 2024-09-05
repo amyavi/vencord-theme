@@ -3,6 +3,23 @@
     @extend %browser-notice !optional;
 }
 
+// removals/guilds/members-activity.scss
+.content_eed6a8 {
+    @extend %members !optional;
+}
+
+.membersGroup_cbd271 {
+    @extend %members-group !optional;
+}
+
+.header_bc6acb {
+    @extend %members-group-activity-header !optional;
+}
+
+.container_c64476 {
+    @extend %members-activity-container !optional;
+}
+
 // removals/guilds-sidebar/
 .guilds_a4d4d9 {
     @extend %guilds-sidebar !optional;
