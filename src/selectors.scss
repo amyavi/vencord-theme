@@ -52,6 +52,14 @@ ol[data-list-id="chat-messages"] {
     @extend %channel-bottom-bar-app-launcher !optional;
 }
 
+.imageContainer_cf58b5 {
+    @extend %messages-image-container !optional;
+}
+
+.hoverButtonGroup_d0395d {
+    @extend %messages-media-hover-button-group !optional;
+}
+
 // removals/misc/role-icons.scss
 .roleIcon_d5100b {
     @extend %role-icon !optional;
