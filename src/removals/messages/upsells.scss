@@ -6,7 +6,10 @@
     display: none !important;
 }
 
-// TODO: find a better way to select this
 %messages-image-container>%messages-media-hover-button-group {
+    display: none !important;
+}
+
+%messages-hide-if-not-focused-container {
     display: none !important;
 }
