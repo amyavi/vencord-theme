@@ -78,6 +78,10 @@ ol[data-list-id="chat-messages"] {
     @extend %private-channels-channel !optional;
 }
 
+.headerContainer_e5a9ed {
+    @extend %private-channels-app-quick-launch-header-container !optional;
+}
+
 .container_c2739c {
     @extend %friends !optional;
 }
