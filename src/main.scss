@@ -5,19 +5,19 @@
  * @author amyavi
 */
 
-@import "selectors.scss";
+@use "removals/general/browser-notices.scss";
+@use "removals/guilds-sidebar/guild-discover-button.scss";
+@use "removals/guilds/members-activity.scss";
+@use "removals/messages/upsells.scss";
+@use "removals/misc/role-icons.scss";
+@use "removals/private-channels/active-now-sidebar.scss";
+@use "removals/private-channels/upsells.scss" as upsells2;
+@use "removals/settings/social-links.scss";
+@use "removals/settings/upsells.scss" as upsells3;
+@use "removals/toolbar/help-button.scss";
+@use "removals/users/avatar-decorations.scss";
+@use "removals/users/effects.scss";
+@use "removals/users/notes.scss";
+@use "removals/users/upsells.scss" as upsells4;
 
-@import "removals/general/browser-notices.scss";
-@import "removals/guilds-sidebar/guild-discover-button.scss";
-@import "removals/guilds/members-activity.scss";
-@import "removals/messages/upsells.scss";
-@import "removals/misc/role-icons.scss";
-@import "removals/private-channels/active-now-sidebar.scss";
-@import "removals/private-channels/upsells.scss";
-@import "removals/settings/social-links.scss";
-@import "removals/settings/upsells.scss";
-@import "removals/toolbar/help-button.scss";
-@import "removals/users/avatar-decorations.scss";
-@import "removals/users/effects.scss";
-@import "removals/users/notes.scss";
-@import "removals/users/upsells.scss";
+@import "selectors.scss";
