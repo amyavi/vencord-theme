@@ -1,3 +1,7 @@
+%guilds-sidebar %guilds-sidebar-guild-separator {
+    display: none !important;
+}
+
 %guilds-sidebar %guilds-sidebar-guild:has(%guilds-sidebar-guild-discover-button) {
     display: none !important;
 }

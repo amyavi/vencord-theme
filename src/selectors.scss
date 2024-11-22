@@ -30,6 +30,10 @@
 }
 
 // removals/guilds-sidebar/guilds-discover-button.scss
+.guildSeparator_d0c57e {
+    @extend %guilds-sidebar-guild-separator !optional;
+}
+
 div[data-list-item-id="guildsnav___guild-discover-button"] {
     @extend %guilds-sidebar-guild-discover-button !optional;
 }
