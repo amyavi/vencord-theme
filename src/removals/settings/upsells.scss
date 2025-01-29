@@ -18,26 +18,4 @@
     display: none !important;
 }
 
-%settings-appearance-theme-description:has(%settings-appearance-theme-description-nitro-wheel) {
-    display: none !important;
-}
-
-%settings-appearance-theme-try-it-out-buttons {
-    display: none !important;
-}
-
-%settings-appearance-theme-preset:has(%settings-appearance-theme-preset-locked-badge) {
-    display: none !important;
-}
-
-%settings-appearance-icon-description:has(%settings-appearance-icon-description-nitro-wheel) {
-    display: none !important;
-}
-
-%settings-appearance-icon-try-it-out-buttons {
-    display: none !important;
-}
-
-%settings-appearance-icon-preset:has(%settings-appearance-icon-preset-locked-badge) {
-    display: none !important;
-}
+// TODO: theme/icon try it out bs
