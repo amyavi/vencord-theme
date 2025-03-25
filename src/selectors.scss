@@ -29,6 +29,11 @@
     @extend %guilds-sidebar-guild !optional;
 }
 
+// removals/guilds-sidebar/download-button.scss
+div[data-list-item-id="guildsnav___app-download-button"] {
+    @extend %guilds-sidebar-download-icon !optional;
+}
+
 // removals/guilds-sidebar/guilds-discover-button.scss
 .discoveryIcon_ef3116 {
     @extend %guilds-sidebar-guild-discover-icon !optional;
