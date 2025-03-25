@@ -106,7 +106,8 @@ ol[data-list-id="chat-messages"] {
     @extend %settings-premium-label !optional;
 }
 
-.tryItOutSection_eb2d2c {
+.tryItOutSection__9d295,
+.upsellContainer__0b69f {
     @extend %settings-profiles-try-it-out-upsell-container !optional;
 }
 
@@ -123,8 +124,12 @@ ol[data-list-id="chat-messages"] {
 }
 
 // removals/toolbar/
-.toolbar__9293f {
+.bar_c38106 {
     @extend %toolbar !optional;
+}
+
+.trailing_c38106 {
+    @extend %toolbar-trailing !optional;
 }
 
 // removals/users/avatar-decorations.scss
