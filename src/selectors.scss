@@ -141,6 +141,10 @@ ol[data-list-id="chat-messages"] {
     @extend %chat-messages-message-avatar-decoration !optional;
 }
 
+.container__4bbc6 {
+    @extend %profile-nameplate !optional;
+}
+
 // removals/users/effects.scss
 .profileEffects__01370 {
     @extend %profile-effects !optional;
