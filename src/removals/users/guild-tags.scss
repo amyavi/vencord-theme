@@ -1,0 +1,11 @@
+%user-clan-tag {
+    display: none !important;
+}
+
+%user-info-tags > span:has(%user-chiplet) {
+    display: none !important;
+}
+
+%user-chiplet:has(%user-clan-tag-badge) {
+    display: none !important;
+}

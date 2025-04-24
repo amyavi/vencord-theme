@@ -150,6 +150,23 @@ ol[data-list-id="chat-messages"] {
     @extend %profile-effects !optional;
 }
 
+// removals/users/clan-tags.scss
+.tags__63ed3 {
+    @extend %user-info-tags !optional;
+}
+
+.chipletContainerInner__4a25c {
+    @extend %user-chiplet !optional;
+}
+
+.clanTag__5d473 {
+    @extend %user-clan-tag !optional;
+}
+
+.badge__4a25c {
+    @extend %user-clan-tag-badge !optional;
+}
+
 // removals/users/notes.scss
 .section_bf424d {
     @extend %profile-section !optional;
