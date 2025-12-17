@@ -5,10 +5,10 @@
   "private": true,
   "devDependencies": {
     "rimraf": "~6.1.2",
-    "sass": "~1.93.3"
+    "sass": "~1.97.0"
   },
   "scripts": {
-    "build": "sass --style=compressed --silence-deprecation=import --no-source-map --update src/main.scss:build/theme.css",
+    "build": "sass --style=compressed --silence-deprecation=import --no-source-map src/main.scss:build/theme.css",
     "clean": "rimraf build"
   }
 }

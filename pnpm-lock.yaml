@@ -12,8 +12,8 @@ importers:
         specifier: ~6.1.2
         version: 6.1.2
       sass:
-        specifier: ~1.93.3
-        version: 1.93.3
+        specifier: ~1.97.0
+        version: 1.97.0
 
 packages:
 
@@ -182,8 +182,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  sass@1.93.3:
-    resolution: {integrity: sha512-elOcIZRTM76dvxNAjqYrucTSI0teAF/L2Lv0s6f6b7FOwcwIuA357bIE871580AjHJuSvLIRUosgV+lIWx6Rgg==}
+  sass@1.97.0:
+    resolution: {integrity: sha512-KR0igP1z4avUJetEuIeOdDlwaUDvkH8wSx7FdSjyYBS3dpyX3TzHfAMO0G1Q4/3cdjcmi3r7idh+KCmKqS+KeQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -334,7 +334,7 @@ snapshots:
       glob: 13.0.0
       package-json-from-dist: 1.0.1
 
-  sass@1.93.3:
+  sass@1.97.0:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.4
