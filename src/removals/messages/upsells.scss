@@ -1,15 +1,4 @@
+// No clue if this is still a thing, but the selector's still there...
 %messages %messages-list-item:has(%messages-nitro-message) {
-    display: none !important;
-}
-
-%channel-bottom-bar-app-launcher {
-    display: none !important;
-}
-
-%messages-image-container>%messages-media-hover-button-group {
-    display: none !important;
-}
-
-%messages-hide-if-not-focused-container {
     display: none !important;
 }

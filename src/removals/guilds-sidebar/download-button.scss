@@ -1,3 +1,4 @@
+// Vesktop already auto-does this, but we do it too so actual browser users don't get the nag either.
 %guilds-sidebar %guilds-sidebar-guild:has(%guilds-sidebar-download-icon) {
     display: none !important;
 }
