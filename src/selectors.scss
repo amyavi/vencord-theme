@@ -1,14 +1,14 @@
 // removals/general/browser-notices.scss
-._740f25428e5fa983-browserNotice {
+.browserNotice__740f2 {
     @extend %browser-notice !optional;
 }
 
 // removals/guilds-sidebar/
-._5e434347c823b592-guilds {
+.guilds__5e434 {
     @extend %guilds-sidebar !optional;
 }
 
-._650eb104245d257b-listItem {
+.listItem__650eb {
     @extend %guilds-sidebar-guild !optional;
 }
 
@@ -27,121 +27,121 @@ ol[data-list-id="chat-messages"] {
     @extend %messages !optional;
 }
 
-._5126c0cd07f243a0-messageListItem {
+.messageListItem__5126c {
     @extend %messages-list-item !optional;
 }
 
 // removals/messages/upsells.scss
-._5126c0cd07f243a0-nitroMessage {
+.nitroMessage__5126c {
     @extend %messages-nitro-message !optional;
 }
 
 // removals/misc/role-icons.scss
-.ee71ee16cc02184d-roleIcon { // either this or c19a557985eb7793
+.roleIcon_ee71e { // either this or c19a557985eb7793
     @extend %role-icon !optional;
 }
 
 // removals/private-channels/
-.e6b7699ce8339e1c-privateChannels {
+.privateChannels_e6b769 {
     @extend %private-channels !optional;
 }
 
-._972a0d22c8afa7f0-channel {
+.channel__972a0 {
     @extend %private-channels-channel !optional;
 }
 
-._133bf5eea8e33a34-container {
+.container__133bf {
     @extend %friends !optional;
 }
 
 // removals/private-channels/active-now-sidebar.scss
-._133bf5eea8e33a34-nowPlayingColumn {
+.nowPlayingColumn__133bf {
     @extend %friends-active-now-sidebar !optional;
 }
 
 // removals/settings/upsells.scss
-.e4ef2250e26e0a8f-premiumTrialBadge {
+.premiumTrialBadge_e4ef2 {
     @extend %settings-premium-trial-badge !optional;
 }
 
-.e681d139d22f277b-premiumLabel {
+.premiumLabel_e681d {
     @extend %settings-premium-label !optional;
 }
 
-._9d295a6cf67970b4-tryItOutSection,
-._0b69f200eb3bf411-upsellContainer {
+.tryItOutSection__9d295,
+.upsellContainer__0b69f {
     @extend %settings-profiles-try-it-out-upsell-container !optional;
 }
 
-._8279f38edc620354-container {
+.container__8279f {
     @extend %settings-profiles-shop-upsell-container !optional;
 }
 
-._0f7dce48ad846f17-upsellOverlayContainer {
+.upsellOverlayContainer__0f7dc {
     @extend %settings-profiles-server-nitro-upsell-container !optional;
 }
 
-._70f7f6541f6f031e-wrapper {
+.wrapper__70f7f {
     @extend %settings-nitro-sticky-wrapper !optional;
 }
 
 // removals/toolbar/
-.c38106a3f0c3ca76-bar {
+.bar_c3810 {
     @extend %toolbar !optional;
 }
 
-.c38106a3f0c3ca76-trailing {
+.trailing_c3810 {
     @extend %toolbar-trailing !optional;
 }
 
 // removals/users/avatar-decorations.scss
-._44b0c28be7879b7b-avatarDecoration {
+.avatarDecoration__44b0c {
     @extend %profile-avatar-decoration !optional;
 }
 
-.c19a557985eb7793-avatarDecoration {
+.avatarDecoration_c19a5 {
     @extend %chat-messages-message-avatar-decoration !optional;
 }
 
-._4bbc6dc06e75ad52-container {
+.container__4bbc6 {
     @extend %profile-nameplate !optional;
 }
 
 // removals/users/effects.scss
-._0137000bc80ab6ea-profileEffects {
+.profileEffects__01370 {
     @extend %profile-effects !optional;
 }
 
 // removals/users/clan-tags.scss
-._63ed30c16c7151f2-tags {
+.tags__63ed3 {
     @extend %user-info-tags !optional;
 }
 
-._10651c5cfe637db6-chipletContainerInner {
+.chipletContainerInner__10651 {
     @extend %user-chiplet !optional;
 }
 
-._5d473ecff348c314-clanTag {
+.clanTag__5d473 {
     @extend %user-clan-tag !optional;
 }
 
 // removals/users/notes.scss
-.bf424dc3dc4c8775-section {
+.section_bf424 {
     @extend %profile-section !optional;
 }
 
-.eb110a19ea3d101d-note {
+.note_eb110 {
     @extend %profile-notes !optional;
 }
 
-.c0bea05627c5dc35-inner {
+.inner_c0bea {
     @extend %profile-popout !optional;
 }
 
-._63ed30c16c7151f2-nicknameIcons {
+.nicknameIcons__63ed3 {
     @extend %profile-popout-name-icons !optional;
 }
 
-._0f0745937100f096-button {
+.button__0f074 {
     @extend %profile-popout-note-icon !optional;
 }
