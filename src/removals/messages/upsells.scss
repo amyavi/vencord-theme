@@ -2,3 +2,7 @@
 %messages %messages-list-item:has(%messages-nitro-message) {
     display: none !important;
 }
+
+%app-launcher-entrypoint {
+    display: none !important;
+}
