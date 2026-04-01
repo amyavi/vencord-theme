@@ -41,7 +41,8 @@ ol[data-list-id="chat-messages"] {
 }
 
 // removals/misc/role-icons.scss
-.roleIcon_ee71e { // either this or c19a557985eb7793
+.roleIcon_ee71e {
+    // either this or c19a557985eb7793
     @extend %role-icon !optional;
 }
 
@@ -107,7 +108,7 @@ ol[data-list-id="chat-messages"] {
     @extend %chat-messages-message-avatar-decoration !optional;
 }
 
-.container__4bbc6 {
+.container_df39b2 {
     @extend %profile-nameplate !optional;
 }
 
@@ -130,11 +131,11 @@ ol[data-list-id="chat-messages"] {
 }
 
 // removals/users/notes.scss
-.section_bf424 {
+.section_bf424d {
     @extend %profile-section !optional;
 }
 
-.note_eb110 {
+.note_eb110a {
     @extend %profile-notes !optional;
 }
 
